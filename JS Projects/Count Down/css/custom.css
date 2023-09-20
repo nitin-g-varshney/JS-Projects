@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url('../pngtree-dark-purple-simple-wind-countdown-clock-table-background-material-purpleminimalismclockcountdownnew-years-image_81540.jpg') center center;
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white ;
+}
+
+.title{
+    margin-top: 30px;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.col{
+    width: 1000px;
+    height: 100px;
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.col div{
+    width: 250px;
+    text-align: center;
+}
+
+input{
+    width: 60%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
